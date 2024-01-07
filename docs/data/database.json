@@ -1,0 +1,21 @@
+{
+    "Jobs":
+    [
+        {
+            "id": "",
+            "logo":"",
+            "employer:": "",
+            "tittle": "",
+            "Duration":"",
+            "Cosing":"",
+            "Posted":"",
+            "introduction":"",
+            "description": "",
+            "qualification":[],
+            "skills":[],
+            "location":[],
+            "apply":"",
+            "Important":[]
+        }
+    ]
+}

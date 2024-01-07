@@ -1,0 +1,255 @@
+/* 
+    backgorund: #662D91
+    foreground: #E6E6E6
+*/
+
+@media (min-width:35em){
+
+    body{
+        /* user-select: none; */
+        .section{
+            padding: .9em;
+            margin: 2em 4em;
+            border-radius: .3em;
+        }
+
+        .header{
+            display: flex;
+            flex-direction: row;
+            background-color: #662D91;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 3em;
+            padding-right: 3em;
+
+            img{
+                height: 20px;
+            }
+
+            .navigation{
+                margin: 0px;
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+                    gap: 1em;
+                    li{
+                        
+                    }
+                }
+            }
+        }
+
+        /* 
+        SECTION - H O M E
+        */
+
+        /*
+        P A G E - J O B - V I E W
+        */
+        .job-header{
+
+
+            width: 70%;
+            color: #e6e6e6;
+            background-color: #662D91;
+
+            .job-details{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                padding-bottom: .8em;
+                border-bottom: 1px solid #e6e6e6;
+
+                img{
+                    /* margin: .4em; */
+                    width: auto;
+                    height: 2em;
+                    background-color: #662D91;
+                }
+
+                div{
+                    margin-left: 1em;
+                    p{
+                        font-size: .9rem;
+                        margin: 0px;
+
+                        span{
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+            .job-about{
+                margin-top: .8em;
+                h5{
+                    font-weight: bold;
+                }
+
+            }
+        }
+
+         /* 
+        SECTION - J O B - D E S C R I P T I O N
+        */
+        .job-description{
+            width: 70%;
+            color: #e6e6e6;
+            background-color: #662D91;
+            h5{
+                font-weight: bold;
+            }
+            ul{
+                li{
+
+                }
+            }
+        }
+
+        .skills-qualifications{
+            width: 70%;
+            color: #e6e6e6;
+            background-color: #662D91;
+            h5{
+                font-weight: bold;
+            }
+            .skills{
+                p{
+                    margin: 0px;
+                }
+            }
+        }
+
+        .how-to-apply{
+            width: 70%;
+            color: #e6e6e6;
+            background-color: #662D91;
+            h5{
+                font-weight: bold;
+            }
+            p{
+                a{
+                    color: #e6e6e6;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .home{
+            padding-top: 5rem;
+
+            .intro-container{
+                border-radius: .5em;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%;
+                padding-top: 1em;
+                padding-bottom: 1em;
+
+                h4{
+
+                }
+
+                .intro{
+                    padding-left: 3em;
+                    padding-right: 3em;
+                }
+
+                .notice{
+
+                }
+            }
+
+            .advert{
+        
+            }
+
+            h4, p {
+                text-align: center;
+            }
+        }
+
+        /* 
+        SECTION - H O M E
+        */
+
+        .latest-jobs{
+            padding-top: 2.5em;
+            margin-bottom: 2em;
+            h4{
+                color: #662D91;
+                font-weight: bold;
+                margin-bottom: 1em;
+                text-align: center;
+            }
+            .card-container{
+                display: flex;
+                justify-content: space-evenly;
+
+
+                .card{
+
+                    color: #e6e6e6;
+                    background-color: #662D91;
+                    width: 20%;
+                    
+                    .card-hearder{
+                        display: flex;
+                        align-items: center;
+                        border-bottom: 1px solid #e6e6e6;
+
+                        padding-top: .4em;
+                        padding-bottom: .4em;
+                        p{
+                            margin: auto;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+                    }
+
+                    .card-body{
+                        p{
+                            
+                            /* background-color: #e6e6e6; */
+                        }
+                    }
+
+                    .card-footer{
+                        background-color: #e6e6e6;
+
+                        .btn{
+                            color: #662D91;
+                            border: 1px #662D91 solid;
+                        }
+
+                        .btn:hover{
+                            color: #e6e6e6;
+                            border: 1px #e6e6e6 solid;
+                            background-color: #662D91;
+                        }
+                    }
+                }
+            }
+
+            .advert{
+                
+            }
+            
+        }
+
+        footer{
+            .disclaimer{
+                p{
+                    font-size: .9rem;
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+
+}
+
